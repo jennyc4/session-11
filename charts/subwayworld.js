@@ -30,8 +30,7 @@ Vue.component('bar-chart', {
 					color: '#c46060',
 					font: {
 						weight: 'bold'
-					},
-					formatter: Math.round
+					}
 				}
 			},
       scales: {
@@ -39,7 +38,8 @@ Vue.component('bar-chart', {
           {
             display: false,
             ticks: {
-              beginAtZero: true
+              beginAtZero: true,
+              max: 10
             }
           }
         ],
