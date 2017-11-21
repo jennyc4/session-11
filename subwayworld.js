@@ -11,7 +11,7 @@ Vue.component('bar-chart', {
           data: [60,18,10,6,11,0,348,2,189,25,0,6],
           datalabels: {
             align: 'end',
-            anchor: 'end'
+            anchor: 'end',
           }
         }
       ]
