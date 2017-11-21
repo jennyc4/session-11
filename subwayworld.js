@@ -3,12 +3,12 @@ Vue.component('bar-chart', {
   props: ['data', 'options'],
   mounted () {
     var data = this.data || {
-      labels: ["AB", "BC","MB","NB","NL","NS","NT","ON","PE","QC","SK","YT","NONE Specified"],
+      labels: ["Beijing", "Tokyo","Shanghai","Seoul","Guangzhou","Moscow","New York City","Hong Kong","Mexico City","Paris"],
       datasets: [
         {
-          label: 'Number of victims of text-message fraud by province (Canada)',
+          label: 'Annual subway ridership',
           backgroundColor: '#f87979',
-          data: [60,18,10,6,11,0,348,2,189,25,0,6],
+          data: [3.660,3.411,3.401,2.620,2.568,2.384,1.757,1.716,1.624,1.526],
           datalabels: {
             align: 'end',
             anchor: 'end',
