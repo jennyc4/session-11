@@ -7,7 +7,7 @@ Vue.component('bar-chart', {
       datasets: [
         {
           label: 'Annual subway ridership',
-          backgroundColor: '#f87979',
+          backgroundColor: '#3CB371',
           data: [3.660,3.411,3.401,2.620,2.568,2.384,1.757,1.716,1.624,1.526],
           datalabels: {
             align: 'end',
@@ -27,7 +27,7 @@ Vue.component('bar-chart', {
 			plugins: {
 				datalabels: {
           display: true,
-					color: '#c46060',
+					color: '#3CB371',
 					font: {
 						weight: 'bold'
 					}
